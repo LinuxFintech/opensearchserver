@@ -455,7 +455,7 @@
 		<dependency>
 			<groupId>org.roaringbitmap</groupId>
 			<artifactId>RoaringBitmap</artifactId>
-			<version>0.5.10</version>
+			<version>0.9.3</version>
 		</dependency>
 	</dependencies>
 	<properties>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
