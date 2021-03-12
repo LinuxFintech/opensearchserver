@@ -226,7 +226,7 @@
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-client</artifactId>
-			<version>2.7.1</version>
+			<version>3.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-codec</groupId>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
