@@ -384,7 +384,7 @@
 		<dependency>
 			<groupId>com.codeborne</groupId>
 			<artifactId>phantomjsdriver</artifactId>
-			<version>1.2.1</version>
+			<version>1.4.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -463,9 +463,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<cxf.version>2.7.18</cxf.version>
 		<lucene.version>3.6.2</lucene.version>
-		<httpclient.version>4.5.1</httpclient.version>
+		<httpclient.version>4.5.2</httpclient.version>
 		<poi.version>3.12</poi.version>
-		<selenium.version>2.48.2</selenium.version>
+		<selenium.version>2.53.0</selenium.version>
 		<zk.version>6.5.4</zk.version>
 		<jackson.version>2.6.3</jackson.version>
 		<tomcat.version>7.0.65</tomcat.version>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
