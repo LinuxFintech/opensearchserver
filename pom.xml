@@ -384,7 +384,7 @@
 		<dependency>
 			<groupId>com.codeborne</groupId>
 			<artifactId>phantomjsdriver</artifactId>
-			<version>1.2.1</version>
+			<version>1.5.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
