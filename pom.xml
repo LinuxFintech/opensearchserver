@@ -151,7 +151,7 @@
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20140107</version>
+			<version>20180130</version>
 		</dependency>
 		<dependency>
 			<groupId>xml-apis</groupId>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
