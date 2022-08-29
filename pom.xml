@@ -466,7 +466,7 @@
 		<httpclient.version>4.5.1</httpclient.version>
 		<poi.version>3.12</poi.version>
 		<selenium.version>2.48.2</selenium.version>
-		<zk.version>6.5.4</zk.version>
+		<zk.version>9.6.0.2</zk.version>
 		<jackson.version>2.6.3</jackson.version>
 		<tomcat.version>7.0.65</tomcat.version>
 	</properties>
@@ -789,7 +789,7 @@
 						</mapping>
 					</mappings>
 					<requires>
-						<require>java &gt;= 1.7.0</require>
+						<require>java >= 1.7.0</require>
 					</requires>
 					<preinstallScriptlet>
 						<scriptFile>src/rpm/preinst</scriptFile>
