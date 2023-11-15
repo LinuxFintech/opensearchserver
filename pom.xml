@@ -226,7 +226,7 @@
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-client</artifactId>
-			<version>2.7.1</version>
+			<version>3.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-codec</groupId>
@@ -465,9 +465,9 @@
 		<lucene.version>3.6.2</lucene.version>
 		<httpclient.version>4.5.1</httpclient.version>
 		<poi.version>3.12</poi.version>
-		<selenium.version>2.48.2</selenium.version>
+		<selenium.version>2.53.0</selenium.version>
 		<zk.version>6.5.4</zk.version>
-		<jackson.version>2.6.3</jackson.version>
+		<jackson.version>2.9.10</jackson.version>
 		<tomcat.version>7.0.65</tomcat.version>
 	</properties>
 	<description>OpenSearchServer is a powerful, enterprise-class, search engine program. Using the web user interface, the crawlers (web, file, database, ...) and the REST/RESTFul API you will be able to integrate quickly and easily advanced full-text search capabilities in your application. OpenSearchServer runs on Windows and Linux/Unix/BSD.</description>
